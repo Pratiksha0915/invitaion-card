@@ -1,0 +1,75 @@
+body {
+    background: url('https://www.transparenttextures.com/patterns/wood-pattern.png') repeat;
+    font-family: 'Arial', sans-serif;
+}
+
+.invitation-card {
+    background: white;
+    border: 10px solid #d49c3d;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+}
+
+.content {
+    border: 5px solid #e0c28d;
+    padding: 30px;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #c47c00;
+}
+
+.ribbon {
+    background: #c47c00;
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.age {
+    font-size: 40px;
+    font-weight: bold;
+    color: #e89506;
+}
+
+.text-muted {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+
+.lined-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.lined-text span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    padding: 0 10px;
+}
+
+.left-line, .right-line {
+    flex: 1;
+    border: none;
+    height: 2px;
+    background: #ccc;
+}
+
+.address p, .date-time p {
+    margin: 3px 0;
+    font-size: 14px;
+}
